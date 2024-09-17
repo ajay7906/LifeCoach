@@ -1,0 +1,205 @@
+/* General body styling */
+.main2-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 6rem;
+}
+
+/* Main container centering the content */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 180px;
+}
+
+/* Image styling */
+.image-content img {
+    width: 380px;
+    height: 590px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transform: translateY(-100px);
+    transition: transform 0.6s ease-in-out;
+}
+
+/* Text content styling */
+.text-content {
+    max-width: 50%;
+    text-align: justify;
+    margin-left: 20px;
+    transform: translateY(100px);
+    transition: transform 0.6s ease-in-out;
+}
+
+/* My Story heading styling */
+.story-title {
+    font-size: 32px;
+    color: #2c3e50;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Paragraph styling with calligraphy font */
+.story-text {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Main Text styling below the container */
+.main-text {
+    font-size: 20px;
+    color: #444;
+    line-height: 1.8;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    text-align: justify;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Main1 Container styling */
+.main1-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+/* Flex container for text and image */
+.main1-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Image section on the left */
+.main1-image img {
+    width: 380px;
+    height: 430px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transform: translateY(100px);
+    transition: transform 0.6s ease-in-out;
+}
+
+/* Text section on the right */
+.main1-text {
+    margin-left: 10px;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+    transform: translateY(100px);
+    transition: transform 0.6s ease-in-out;
+}
+
+/* Additional text below the image */
+.main1-text-below {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 8px;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+    text-align: justify;
+    transform: translateY(-100px);
+    transition: transform 0.6s ease-in-out;
+}
+/* Responsive styling */
+@media (min-width: 768px) {
+    /* Container styling */
+    .container {
+        flex-direction: row;
+    }
+
+    /* Flex container for text and image */
+    .main1-content {
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    /* Main container flex-direction adjustment for mobile */
+    .container {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    /* Adjust image width for mobile */
+    .image-content img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Text content width adjustment */
+    .text-content {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    /* Main1 container column alignment for mobile */
+    .main1-content {
+        flex-direction: column;
+    }
+
+    /* Adjust main1-image width */
+    .main1-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Adjust text margins and size for better mobile readability */
+    .main1-text {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+
+
+

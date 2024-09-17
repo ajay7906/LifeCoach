@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+
+
+
+
+        <div class="logo-text">
+          CoachTanyaBhatia
+        </div>
+
+
+
+
+      </div>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./story/story.html">About</a></li>
+        <!-- <li><a href="#masterclass">Goddess by Design Masterclass</a></li> -->
+        <li><a href="./services/services.html">Services</a></li>
+        <li><a href="./blog/blog.html">Blog</a></li>
+        <!-- <li><a href="#insider">LBD Insider</a></li> -->
+        <li><a href="./contact/contact.html">Contact</a></li>
+        <!-- <li><a href="#" class="fa fa-facebook"></a></li> -->
+        <li><a href="https://facebook.com/theparadigmlearning" class="fa fa-facebook"></a>
+          <a href="https://www.linkedin.com/in/magnifyingimpressionsbytanya" class="fa fa-linkedin"></a>
+          <a href="https://youtube.com/@magnifyingimpressionsbytanya?si=BZb8D-zGMDerd2s_" class="fa fa-youtube"></a>
+          <a href="https://instagram.com/magnifyingimpressions_by_tanya" class="fa fa-instagram"></a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- vedio section -->
+  <div class="intro-video-container">
+    <!-- Left Section: Introduction -->
+    <div class="intro-section">
+      <h1>Hi!</h1>
+      <h2>I'M TANYA</h2>
+      <p>Trauma Informed Life Coach, Inner Childhood Trauma healer, Trauma informed Manifestation Coach, Reiki Healing
+        Channel, Akashic Records Reader, Communication Coach and Corporate Soft Skills Trainer</p>
+
+    </div>
+    <!-- Right Section: Video Placeholder -->
+    <div class="video-section">
+      <h3>Tanya</h3>
+    </div>
+  </div>
+
+
+  <!-- form popups start-->
+
+
+  <!-- Popup Structure -->
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <!-- Left side image -->
+      <div class="popup-image">
+        <img src="./images/first.jpeg" alt="Image of a woman">
+      </div>
+
+      <!-- Right side form -->
+      <div class="popup-form">
+        <h2>Are You Ready To Start Designing Your Life?</h2>
+        <p>Enter your email and take our quiz to find out how.</p>
+        <form>
+          <input type="text" id="name" name="name" placeholder="Name" required><br>
+          <input type="email" id="email" name="email" placeholder="Email Address" required><br>
+          <input type="phone" id="phone" name="phone" placeholder="Phone Number" required><br>
+          <button type="submit">MAKE IT HAPPEN!</button>
+        </form>
+      </div>
+    </div>
+    <!-- Close button -->
+    <div class="close-popup" id="close-popup">&times;</div>
+  </div>
+
+
+
+  <!-- form popups end -->
+
+
+
+  <!-- testomonial section -->
+  <section class="thought-leaders-section">
+    <h1>What Clients Are Saying</h1>
+    <!-- <h2>THOUGHT LEADERS HAVE TO SAY</h2> -->
+  </section>
+
+
+
+
+  <!-- testmonical comment -->
+  <!-- <section id="testimonials">
+  <h2>What Clients Are Saying</h2>
+  <div class="testimonial-container">
+      <div class="testimonial-slide" id="testimonial1">
+          <img src="./img.jfif" alt="Pragnesh Desai">
+          <p><strong>Pragnesh Desai</strong><br>Pragnesh found Tanya’s coaching life-changing, helping him shift from a blame mindset to positivity. The sessions boosted his confidence and uncovered personal strengths. He appreciated Tanya’s calm, patient approach and her commitment to follow-ups and tailored guidance. The program’s key exercises, like the Life Purpose activity, made a significant impact. He highly recommends Tanya’s coaching for personal and professional growth.</p>
+      </div>
+      <div class="testimonial-slide" id="testimonial2">
+          <img src="./img.jfif" alt="Kavita Pasricha">
+          <p><strong>Kavita Pasricha</strong><br>Kavita found Tanya's life and confidence coaching program transformative, helping her overcome emotional barriers and become a more fulfilled version of herself. Tanya’s compassionate and adaptive approach made her feel supported throughout the process. The inner child healing sessions were especially impactful, allowing Kavita to address past traumas and grow personally. She highly recommends investing in personal growth for long-term well-being.</p>
+      </div>
+      <div class="testimonial-slide" id="testimonial3">
+          <img src="./img.jfif" alt="Sukriti Upadhyay">
+          <p><strong>Sukriti Upadhyay</strong><br>Sukriti describes Tanya as a flexible, non-judgmental coach who customizes sessions to individual needs. She appreciates Tanya’s professionalism, attention to timing, and follow-ups, as well as the practical tools she provided. Tanya’s patience and personal touch made Sukriti feel comfortable and supported throughout the coaching process.</p>
+      </div>
+      <div class="testimonial-slide" id="testimonial4">
+          <img src="./img.jfif" alt="Anupam R">
+          <p><strong>Anupam R</strong><br>Anupam found Tanya’s mindset program transformative and praised her flexible, professional approach. He appreciated the personal attention and practical solutions she provided. The program improved his mindfulness, self-talk, and confidence. Anupam is impressed with his progress and highly recommends Tanya for personal growth coaching.</p>
+      </div>
+      <div class="testimonial-slide" id="testimonial5">
+          <img src="./img.jfif" alt="Shreya Agarwal">
+          <p><strong>Shreya Agarwal</strong><br>Shreya describes her coaching experience with Tanya as “awesome.” Tanya helped her overcome self-doubt and limiting beliefs, providing courage and clarity. She appreciated Tanya’s support, storytelling skills, and actionable techniques, including detailed session reports. Shreya highly recommends Tanya to women coaches and entrepreneurs seeking personal growth and transformation.</p>
+      </div>
+      <div class="testimonial-slide" id="testimonial6">
+          <img src="./img.jfif" alt="Jumana Singaporewala">
+          <p><strong>Jumana Singaporewala</strong><br>Jumana found Tanya’s session amazing and appreciated her clear, detailed explanations of communication techniques with relatable examples. She thanks Tanya for her time and efforts and highly recommends her coaching, especially for women, for its practical and impactful benefits.</p>
+      </div>
+  </div>
+</section> -->
+  <section id="testimonials">
+    <!-- <h2>What Clients Are Saying</h2> -->
+    <div class="testimonial-container">
+      <div class="testimonial-slide" id="testimonial1">
+        <img src="./images/Pragnesh Desai.jpg" alt="Pragnesh Desai">
+        <p><strong>Pragnesh Desai</strong><br>Pragnesh found Tanya’s coaching life-changing, helping him shift from a
+          blame mindset to positivity. The sessions boosted his confidence and uncovered personal strengths. He
+          appreciated Tanya’s calm, patient approach and her commitment to follow-ups and tailored guidance. The
+          program’s key exercises, like the Life Purpose activity, made a significant impact. He highly recommends
+          Tanya’s coaching for personal and professional growth.</p>
+      </div>
+      <div class="testimonial-slide" id="testimonial2">
+        <img src="./images/Kavita Pasricha.jpg" alt="Kavita Pasricha">
+        <p><strong>Kavita Pasricha</strong><br>Kavita found Tanya's life and confidence coaching program transformative,
+          helping her overcome emotional barriers and become a more fulfilled version of herself. Tanya’s compassionate
+          and adaptive approach made her feel supported throughout the process. The inner child healing sessions were
+          especially impactful, allowing Kavita to address past traumas and grow personally. She highly recommends
+          investing in personal growth for long-term well-being.</p>
+      </div>
+      <div class="testimonial-slide" id="testimonial3">
+        <img src="./images/Sukriti Upadhyay.jpg" alt="Sukriti Upadhyay">
+        <p><strong>Sukriti Upadhyay</strong><br>Sukriti describes Tanya as a flexible, non-judgmental coach who
+          customizes sessions to individual needs. She appreciates Tanya’s professionalism, attention to timing, and
+          follow-ups, as well as the practical tools she provided. Tanya’s patience and personal touch made Sukriti feel
+          comfortable and supported throughout the coaching process.</p>
+      </div>
+      <div class="testimonial-slide" id="testimonial4">
+        <img src="./images/Anupama R.jpg" alt="Anupam R">
+        <p><strong>Anupam R</strong><br>Anupam found Tanya’s mindset program transformative and praised her flexible,
+          professional approach. He appreciated the personal attention and practical solutions she provided. The program
+          improved his mindfulness, self-talk, and confidence. Anupam is impressed with his progress and highly
+          recommends Tanya for personal growth coaching.</p>
+      </div>
+      <div class="testimonial-slide" id="testimonial5">
+        <img src="./images/Shreya Agarwal.jpg" alt="Shreya Agarwal">
+        <p><strong>Shreya Agarwal</strong><br>Shreya describes her coaching experience with Tanya as “awesome.” Tanya
+          helped her overcome self-doubt and limiting beliefs, providing courage and clarity. She appreciated Tanya’s
+          support, storytelling skills, and actionable techniques, including detailed session reports. Shreya highly
+          recommends Tanya to women coaches and entrepreneurs seeking personal growth and transformation.</p>
+      </div>
+      <div class="testimonial-slide" id="testimonial6">
+        <img src="./images/Jumana Singaporewala.jpg" alt="Jumana Singaporewala">
+        <p><strong>Jumana Singaporewala</strong><br>Jumana found Tanya’s session amazing and appreciated her clear,
+          detailed explanations of communication techniques with relatable examples. She thanks Tanya for her time and
+          efforts and highly recommends her coaching, especially for women, for its practical and impactful benefits.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- <div class="testimonial-nav prev" onclick="prevSlide()">&#10094;</div>
+    <div class="testimonial-nav next" onclick="nextSlide()">&#10095;</div> -->
+    <div class="dots">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+
+      <!-- Add dots according to the number of slides -->
+    </div>
+  </section>
+
+
+  <!-- one to one coaching -->
+
+
+  <section class="one-on-one-coaching">
+    <div class="coaching-content">
+      <h2><span class="number">1</span></h2>
+      <h1>ONE - ON - ONE COACHING</h1>
+      <p class="tagline">Live life not by default, but by design</p>
+      <p class="description">From relationships to career to how you feel when you wake up in the morning, I create
+        customised programs that help you take control over your life and maximise your potential.</p>
+    </div>
+    <div class="coaching-image">
+      <img src="./images/first.jpeg" alt="Life Coach Image">
+    </div>
+  </section>
+
+
+
+  <!-- form -->
+  <div class="body">
+
+
+    <div class="form-container">
+      <h1>Form</h1>
+      <p></p>
+      <form id="userForm">
+        <input type="text" id="firstName" placeholder="First Name" required>
+        <input type="text" id="lastName" placeholder="Last Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="tel" id="phone" placeholder="Phone" required>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- footer -->
+
+  <footer class="footer-section">
+    <div class="footer-content">
+      <h2>ARE YOU READY TO START DESIGNING YOUR LIFE?</h2>
+      <button class="cta-button" id="scrollToForm">MAKE IT HAPPEN</button>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2013-24 by Tanya Bhatiya. All rights reserved. Website design by <a href="#">LocalXO</a></p>
+      <div class="social-icons">
+        <!-- <a href="#" class="social-icon">
+              <img src="facebook-icon.png" alt="Facebook" />
+            </a>
+            <a href="#" class="social-icon">
+              <img src="instagram-icon.png" alt="Instagram" />
+            </a>
+            <a href="#" class="social-icon">
+              <img src="twitter-icon.png" alt="Twitter" />
+            </a>
+            <a href="#" class="social-icon">
+              <img src="linkedin-icon.png" alt="LinkedIn" />
+            </a> -->
+        <a href="https://facebook.com/theparadigmlearning" class="fa fa-facebook"></a>
+        <a href="https://www.linkedin.com/in/magnifyingimpressionsbytanya" class="fa fa-linkedin"></a>
+        <a href="https://youtube.com/@magnifyingimpressionsbytanya?si=BZb8D-zGMDerd2s_" class="fa fa-youtube"></a>
+        <a href="https://instagram.com/magnifyingimpressions_by_tanya" class="fa fa-instagram"></a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
